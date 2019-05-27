@@ -84,8 +84,9 @@ let otroLi = document.createElement("li")
 otroLi.innerText = "Nuevo Texto " + i
 //4) Agregar todos los <li> al <ul> del punto 1.
 nuevoUl.appendChild(otroLi)
-
 }
 
 //5) Agregar el <ul> del punto 1 al DOM.
 body.appendChild(nuevoUl)
+
+
